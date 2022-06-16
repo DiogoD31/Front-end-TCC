@@ -12,6 +12,13 @@
     }
   }
 
+  .btnView{
+    margin-top: 7%;
+    margin-left: 10%;
+    font-size: 12px;
+    background: linear-gradient(to right, #1B98E0, #660b0b9d);;
+  }
+
   .status {
     padding: 5px;
     border-radius: 5px;
@@ -25,4 +32,6 @@
       background-color: rgba(189, 189, 3, 0.103);
     }
   }
+
+  
 }

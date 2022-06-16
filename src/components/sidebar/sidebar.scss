@@ -2,7 +2,7 @@
   flex: 1;
   border-right: 0.5px solid rgb(230, 227, 227);
   min-height: 100vh;
-  background-color: white;
+  background: linear-gradient(to right, #1B98E0 ,#7e12a5);
 
   .top {
     height: 50px;
@@ -11,9 +11,9 @@
     justify-content: center;
 
     .logo {
-      font-size: 20px;
+      font-size: 22px;
       font-weight: bold;
-      color: #6439ff;
+      color: #fff;
     }
   }
 
@@ -31,9 +31,9 @@
       padding: 0;
 
       .title {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: bold;
-        color: #999;
+        color: #fff;
         margin-top: 15px;
         margin-bottom: 5px;
       }
@@ -41,22 +41,22 @@
       li {
         display: flex;
         align-items: center;
-        padding: 5px;
+        padding: 7px;
         cursor: pointer;
 
         &:hover {
-          background-color: #ece8ff;
+          background-color: rgba(122, 117, 117, 0.76);
         }
 
         .icon {
           font-size: 18px;
-          color: #7451f8;
+          color: #fff;
         }
 
         span{
             font-size: 13px;
             font-weight: 600;
-            color: #888;
+            color: rgba(255, 255, 255, 0.842);
             margin-left: 10px;
         }
       }
@@ -66,6 +66,7 @@
   .bottom{
       display: flex;
       align-items: center;
+      padding-top: 55%;
       margin: 10px;
 
       .colorOption{

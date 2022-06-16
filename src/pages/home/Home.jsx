@@ -25,7 +25,7 @@ const Home = () => {
         </div>
   */}
         <div className="listContainer">
-          <div className="listTitle">Latest Transactions</div>
+          <div className="listTitle">Vagas Disponiveis</div>
           <Table />
         </div>
       </div>
